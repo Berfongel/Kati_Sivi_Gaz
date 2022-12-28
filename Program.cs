@@ -6,7 +6,7 @@ if (derece < 0)
 {
     Console.WriteLine("0 derecenin altında olduğundan katı halde");
 }
-else if (0 < derece || derece < 100)
+else if (0 < derece && derece < 100)
 {
     Console.WriteLine("0 - 100 derece arasında olduğundan sıvı halde");
 }
